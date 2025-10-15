@@ -1,0 +1,89 @@
+:root{
+    --background-color: #780000;
+    --secondary-color: #4b97c0;
+    --primary-color: #003049;
+    --text-color:  #242424;
+    --accent-color: #FDF0DF;
+    --gray-color: #b9b9b9;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-color);
+}
+
+.header-navbar{
+    display:flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 20px;
+    box-shadow: 0 8px 30px rgb(0,0,0,0.12);
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.header-navbar-right ul{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     transition: all 0.5s ease;
+     font-weight: 600; 
+}
+
+.header-navbar-right ul li{
+    cursor: pointer;
+    color:  var(--primary-color);
+    transition: all 0.5s ease;
+}
+
+.header-navbar-right ul li:hover{
+    color: var(secondary-color);
+    scale: 0.9;
+}
+
+.hero-section{
+    width:100vh;
+    height: 80vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-left{
+    width: 50%;
+    height:80vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.hero-left h1{
+    font-size: 72px;
+    line-height: 0.9;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.hero-left span{
+    color: var( --secondary-color);
+}
+
+.hero-right{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
