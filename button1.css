@@ -7,7 +7,7 @@ button {
   color: var(--accent-color);
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
-  text-transform: none;
+  /*text-transform: none;*/
   transition: all 0.5s ease !important;
 }
 
